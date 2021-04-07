@@ -18,6 +18,8 @@
 ![image](https://user-images.githubusercontent.com/31690912/113843553-def2cf80-97bd-11eb-86d3-7cd692887e59.png)
 - First Class Function คือ การเอา function ไปปเก็บในตัวเเปรหรือก็คือเอาตัวเเปรไปเป็นฟังก์ชั่นตัวหนึ่งเลย
 
+
+
 2)เลือก Mongodb
 - Preplanning
 เลือกใช้ Database ให้เหมาะกับงานที่ต้องทำเเละวางโครงสร้างให้เหมาะสม
