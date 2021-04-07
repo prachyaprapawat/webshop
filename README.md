@@ -44,11 +44,11 @@ unique key ที่สร้างขึ้นมา
 
 
 3)
-WebUrl: https://apiwebshop.herokuapp.com
+- WebUrl: https://apiwebshop.herokuapp.com
 
- API Document: https://www.getpostman.com/collections/1ded7d97fc75c1999358
+- API Document: https://www.getpostman.com/collections/1ded7d97fc75c1999358
 
-api ที่ผมทำขึ้นมาเเบ่งเป็น 4 หมวด
+- api ที่ผมทำขึ้นมาเเบ่งเป็น 4 หมวด
 
 index คือ api ที่เดียวกับการเข้าสู่ระบบ สมัครสมาชิคเเละดู sitemap
 product คือ api ที่เกี่ยวกับการจัดการสินค้าต่างๆ ในระบบหรือดูข้อมูลสินค้าในระบบเเละการให้ rating สินค้า
