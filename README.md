@@ -40,3 +40,18 @@ unique key ที่สร้างขึ้นมา
 ปกติผมจะใช้  Document ของ Postman ทำ 
 - Usage testing
 ผมจะลองใช่ postman ทดสอบดึงข้อมูลเเละทดลองการเชื่อมต่อ
+
+
+
+3)
+WebUrl: https://apiwebshop.herokuapp.com
+
+ API Document: https://www.getpostman.com/collections/1ded7d97fc75c1999358
+
+api ที่ผมทำขึ้นมาเเบ่งเป็น 4 หมวด
+
+index คือ api ที่เดียวกับการเข้าสู่ระบบ สมัครสมาชิคเเละดู sitemap
+product คือ api ที่เกี่ยวกับการจัดการสินค้าต่างๆ ในระบบหรือดูข้อมูลสินค้าในระบบเเละการให้ rating สินค้า
+cart คือ api ที่เกี่ยวกับการจัดการสินค้าทั้งหมดในตะกร้าสินค้าที่ผู้ใช้เลือก
+order คือ api ที่เกี่ยวกับการจัดการ order ของผู้ใช้งาน
+ก่อนจะใช้ api ของ index, product, cart, order จำเป็นต้องเเนบ token ที่ได้มาจากการ login ก่อน
