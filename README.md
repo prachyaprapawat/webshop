@@ -46,7 +46,9 @@ unique key ที่สร้างขึ้นมา
 3)
 - WebUrl: https://apiwebshop.herokuapp.com
 
-- API Document: https://www.getpostman.com/collections/1ded7d97fc75c1999358
+- API Document: https://documenter.getpostman.com/view/9962406/TzCS56KU 
+
+- POSTMAN: https://www.getpostman.com/collections/1ded7d97fc75c1999358
 
 - api ที่ผมทำขึ้นมาเเบ่งเป็น 4 หมวด
 
