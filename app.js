@@ -19,7 +19,6 @@ require('./config/passport')(passport);
 
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/user');
 var productRouter = require('./routes/product');
 var cartRouter = require('./routes/cart');
 var orderRouter = require('./routes/order');
@@ -50,7 +49,6 @@ const requireJWTAuth = passport.authenticate("jwt", {
   });
   
 app.use('/', indexRouter);
-app.use('/user',requireJWTAuth,usersRouter);
 app.use('/product',requireJWTAuth, productRouter);
 app.use('/cart',requireJWTAuth, cartRouter);
 app.use('/order',requireJWTAuth, orderRouter);
