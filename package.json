@@ -11,11 +11,7 @@
     "body-parser": "^1.19.0",
     "cloudinary": "^1.25.0",
     "cookie-parser": "~1.4.4",
-<<<<<<< HEAD
     "cors": "^2.8.5",
-=======
-    "cryptr": "^6.0.2",
->>>>>>> 17793f76a80f2afd6b4425c36c3f6f6f53865f4e
     "debug": "~2.6.9",
     "dotenv": "^8.2.0",
     "express": "~4.16.1",

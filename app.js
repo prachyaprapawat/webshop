@@ -20,17 +20,9 @@ require('./config/passport')(passport);
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/user');
-<<<<<<< HEAD
 var productRouter = require('./routes/product');
 var cartRouter = require('./routes/cart');
 var orderRouter = require('./routes/order');
-=======
-var typeRouter = require('./routes/type');
-var borrowRouter = require('./routes/borrow');
-var deviceRouter = require('./routes/user');
-var loginRouter = require('./routes/login');
-
->>>>>>> 17793f76a80f2afd6b4425c36c3f6f6f53865f4e
 
 
 app.use(logger('dev'));
@@ -58,18 +50,10 @@ const requireJWTAuth = passport.authenticate("jwt", {
   });
   
 app.use('/', indexRouter);
-<<<<<<< HEAD
 app.use('/user',requireJWTAuth,usersRouter);
 app.use('/product',requireJWTAuth, productRouter);
 app.use('/cart',requireJWTAuth, cartRouter);
 app.use('/order',requireJWTAuth, orderRouter);
-=======
-app.use('/user',usersRouter);
-app.use('/type', typeRouter);
-app.use('/borrow', borrowRouter);
-app.use('/device', deviceRouter);
-app.use('/login', loginRouter);
->>>>>>> 17793f76a80f2afd6b4425c36c3f6f6f53865f4e
 
 app.all('*', (req, res, next) => {
     next(new ExpressError('Page Not Found', 404))
